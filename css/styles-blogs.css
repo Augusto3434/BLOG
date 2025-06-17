@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    min-width: 312px;
+    max-width: 1800px;
+}
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+.icon-facebook {
+    display: flex;
+    background-image: url('/assets/icons/facebook-brands.svg');
+    width: 40px;
+    height: 40px;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-twitter {
+    display: flex;
+    background-image: url('/assets/icons/twitter-brands.svg');
+    width: 40px;
+    height: 40px;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-instagram {
+    display: flex;
+    background-image: url('/assets/icons/instagram-brands.svg');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-linkedin {
+    display: flex;
+    background-image: url('/assets/icons/linkedin-brands.svg');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-youtube {
+      display: flex;
+    background-image: url('/assets/icons/youtube-brands.svg');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+main {
+    width: 100%;
+    max-width: 1800px;
+    min-width: 312px;
+    box-sizing: border-box;
+    background-color: darkgray;
+
+}
+.main-blog-major-container {
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-blog-major-container .left {
+    padding: 100px;
+    align-items: center;
+}
+.main-blog-major-container .right {
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+}
+.main-title {
+    font-family: 'Roboto mono', monospace;
+    font-weight: 500;
+    font-size: 3rem;
+    color: black;
+}
+.img-blog-major {
+ display: flex;
+ width: 300px;
+ height: 400px;
+ background-image: url('/assets/img/image1.svg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.blog-title {
+    font-family: 'roboto mono', monospace;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.blog-description {
+    font-family: 'Roboto momo', monospace;
+    font-weight: 300;
+    font-size: 2rem;
+}
